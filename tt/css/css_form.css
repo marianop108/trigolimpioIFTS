@@ -1,0 +1,344 @@
+@charset "utf-8";
+/* CSS Document */
+
+.register
+{
+	padding: 100px 0 0;
+	width: 100%;
+	overflow:hidden;
+	display:block;
+}
+
+	body:first-of-type .register .cell { 
+		padding: 2px 0 2px 0; }
+		
+	.register .cell
+	{
+		width:100%;
+		overflow: hidden;
+		padding/*\**/:3px 0 \9;
+		*padding: 3px 0 ;
+		_padding: 3px 0 ;
+	}
+	
+	
+		.register .cell a:link,
+		.register .cell a:visited,
+		.register .cell a:active,
+		.register .cell a:hover
+		{
+			display: inline;
+			float: right;
+			
+			font: normal normal 13px/1.4em Arial, Helvetica, sans-serif;
+			
+			text-decoration: none;
+		}
+		.register .cell a:hover
+		{
+			text-decoration: underline;
+		}
+	
+
+		.register .cell label
+		{
+			color: black;
+			
+			display: inline;
+			float: left;
+			
+			font: normal bold 15px/1.4em Arial, Helvetica, sans-serif;
+			margin: 0 20px 0 0;
+			padding: 5px 0;
+			text-align: right;
+			width: 165px;
+		}
+		.register .cell1 label
+		{
+			color: black;
+			
+			display: inline;
+			float: left;
+			
+			font: italic bold 30px/1.4em Arial, Helvetica, sans-serif;
+			margin: 0 20px 0 0;
+			padding: 30px 0;
+			text-align: right;
+			width: 420px;
+		}
+		.register .cell2 label
+		{
+			color: #fff;
+			
+			display: inline;
+			float: left;
+			
+			font: italic bold 80px/1.4em Thaoma, Helvetica, sans-serif;
+			margin: 0 20px 0 0;
+			padding: 5px 0;
+			text-align: center;
+			width: 1200px;
+		}
+
+		.register .cell label.for-radio-check
+		{
+			color: #000;
+			
+			display: inline;
+			float: left;
+			
+			font: normal normal 15px/1.4em Arial, Helvetica, sans-serif;
+			
+			margin: 0 40px 0 0;
+			padding:5px 0 0 0;
+			text-align: right;
+			
+			width: auto;
+		}
+
+
+		.register .cell input.text-box,
+		.register .cell select.text-box,
+		.register .cell input.radio-check-box
+		{
+			border-top: solid 1px #999999;
+			border-left:solid 1px #999999;
+			border-right:solid 1px #E5E5E5;
+			border-bottom:solid 1px #E5E5E5;
+			color: #000;
+			
+			display: inline;
+			float: left;
+			
+			font: normal normal 12px/1.4em Arial, Helvetica, sans-serif;
+			padding: 4px 4px 3px 4px;
+			
+			width: 210px;
+			text-align:left;
+		}
+		
+		
+			.for-radio-check-1
+			{
+				color: black;
+				display: inline;
+				font: normal 12px/1.4em Arial, Helvetica, sans-serif;
+				margin: 0 0 5px 0px !important;
+				padding: 2px 0 0 0 !important;
+				text-align: left !important;
+				width: 200px;
+				float: left;
+				cursor:pointer;
+			}
+			
+				label.error
+				{
+					color:#FFCE0D;
+					display: inline;
+					float: right;
+					font: normal bold 12px/1.4em Arial, Helvetica, sans-serif;
+					margin: 0 3px 0 3px;
+					/*background:url(../img/error.gif) no-repeat 5px 15px;*/
+					padding: 0 30px 0 0;
+					text-align: right;
+					width: auto;
+				}
+	
+			.radio-check-box-1
+			{
+				color: #000;
+				
+				display: inline;
+				float: left;
+				
+				font: normal normal 12px/1.4em Arial, Helvetica, sans-serif;
+				padding: 0px 2px 1px 2px;
+				
+				width: 40px;
+			}
+
+		.register .cell select.text-box
+		{
+			width: 220px;
+			
+		}
+
+		.register .cell input.radio-check-box
+		{
+			border: 0 !important;
+			height: 18px;
+			width: 25px;
+			padding:0px;
+		}
+
+		.register .cell .command-button
+		{
+			background: url(../img/bg-button.png) repeat-x 0 0;
+			border:solid 1px #F56994;
+			cursor:pointer;
+			_border:0px;
+			
+			/* border radius */
+			-webkit-border-radius: 7px;
+			-moz-border-radius: 7px;
+			border-radius: 7px;
+			
+			color:#501235;
+			
+			display: inline;
+			float: left;
+			
+			font: italic bold 16px/1.4em Arial, Helvetica, sans-serif;
+			
+			margin: 0 0 0 213px;
+			padding: 4px 50px 4px;
+			width:auto;
+		}
+
+		.register .cell .command-button:hover
+		{
+			color: #501235;
+			background: url(../img/bg-button.png) repeat-x 0 -30px;
+		}
+		
+		.register .cell .command-button2
+		{
+			background: url(../img/bg-button.png) repeat-x top left;
+			border:0px;
+			cursor:pointer;
+			_border:0px;
+			
+			/* border radius */
+			-webkit-border-radius: 7px;
+			-moz-border-radius: 7px;
+			border-radius: 7px;
+			
+			color: #fff;
+			
+			display: inline;
+			float: left;
+			
+			font: normal bold 13px/1.4em Arial, Helvetica, sans-serif;
+			
+			margin: 0 0 0 130px;
+			padding: 5px 30px 6px;
+		}
+
+		.register .cell .command-button2:hover
+		{
+			background: url(../img/bg-button.png) repeat-x bottom left;
+		}
+
+		.register .cell label.error
+		{
+			color: #FFF26D;
+			
+			display: inline;
+			float: left;
+			
+			font: normal bold 18px/14px Arial, Helvetica, sans-serif;
+			
+			margin: 9px 3px 0 3px;
+			/*background:url(../img/error.gif) no-repeat;*/
+			padding:2px 0 ;
+			text-align: left;
+			
+			width:14px;
+			height:14px;
+		}
+		
+		.register .cell input.error,
+		.register .cell select.error
+		{			
+			background:#fffcdc;
+			border: solid 2px #FFF26D;
+		}
+		
+
+	.register .terms-cell
+	{
+		padding: 0 20px !important;
+		width: 790px;
+	}
+	
+
+		.register .terms-cell label.title
+		{
+			display: block;
+			float: none;
+			margin: 65px 0 15px 80px !important;
+		}
+
+		.register .terms-cell .terms-box
+		{
+			background: #fff;
+			border: solid 1px #8c8c8c;
+			
+			height: 240px;
+			
+			overflow: auto;
+			padding: 30px;
+			width: 715px;
+		}
+		
+		
+		.terms-box .title-text
+		{
+			color: #000;
+			
+			display: block;
+			
+			font: normal bold 14px/1.4em Arial, Helvetica, sans-serif;
+			
+			padding: 0 0 15px;
+		}
+
+		.terms-box .text
+		{
+			color: #000;
+			
+			display: block;
+			
+			font: normal normal 12px/1.4em Arial, Helvetica, sans-serif;
+		}
+
+		.terms-box .numeric-list-text
+		{
+			border: 0;
+			
+			color: #000;
+			display: block;
+			font: normal normal 12px/1.4em Arial, Helvetica, sans-serif;
+			list-style-type: decimal;
+			
+			padding: 0 20px;
+		}
+			
+
+/*********cont error*******/
+
+.cont-error
+{
+	width:450px;
+	padding:0px 0 15px ;
+	color: #FFCE0D;
+	font: normal bold 13px/18px Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+	.cont-error a
+	{
+		text-decoration:underline;
+		font: bold 13px Arial, Helvetica, sans-serif;
+		color:#FFED00;
+		outline:none;
+	}
+	
+	.cont-error a:hover
+	{
+		text-decoration:none;
+	}
+	
+
+					
+

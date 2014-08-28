@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* CSS Document */
+
+.{ padding:0px; margin:0px;}
+
+body{
+	padding:0px;
+	margin:0px;
+	background:url(../img/bg-body.jpg) repeat-x top center #FAF9F9;
+}
+
+.cont-repu{
+	background:url(../img/bg-body-repuss.jpg) no-repeat top center;
+	display:block;
+	padding:0;
+	margin:0 auto;
+	width:1228px;
+	/*overflow:hidden;*/
+}
+
+	.cont-top-repu
+	{
+		width:570px;
+		/*background:url(../img/bg-top-repu.jpg) no-repeat #fff;*/
+		
+		/* border radius */
+		/*-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;*/
+		
+		/* box shadow */
+		display:block;
+		overflow:hidden;
+	}
+		
+		.link-logo
+		{
+			width:465px;
+			height:120px;
+			display:block;
+			margin:15px 0 0 0;
+		}
+		
+	.cont-body-repu-1
+	{
+		width:570px;
+		height:851px;
+		/*background:url(../img/bg-cont-repu-1.jpg) no-repeat;
+		border:solid 1px #C4C4C4;*/
+		
+		/* border radius */
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		
+		/* box shadow */
+		/*-moz-box-shadow: 0 0 15px #333333;
+		-webkit-box-shadow: 0 0 15px #333333;
+		box-shadow: 0 0 15px #333333;*/
+		padding:0 0 0 118px;
+		position:relative;
+		top:0px;
+		z-index:1;
+	}
+	
+	
+	
+		.cont-social
+		{
+			background:#A44872;
+			left:1px;
+			padding:15px 0;
+			position:absolute;
+			top:294px;
+			width:95px;
+			
+			-webkit-border-top-left-radius: 6px;
+			-webkit-border-bottom-left-radius: 6px;
+			-moz-border-radius-topleft: 6px;
+			-moz-border-radius-bottomleft: 6px;
+			border-top-left-radius: 6px;
+			border-bottom-left-radius: 6px;
+		}
+		
+			.link-compartir
+			{
+				display:block;
+				margin:0 auto 0;
+				overflow:hidden;
+				width:80px;
+			}
+				
+				.link-compartir a:link,
+				.link-compartir a:visited,
+				.link-compartir a:active,
+				.link-compartir a:hover
+				{
+					background:url(../img/btn-compartir.jpg) no-repeat top center;
+					display:block;
+					height:19px;
+					overflow:hidden;
+					width:80px;
+				}
+				
+				.link-compartir a:hover
+				{
+					background:url(../img/btn-compartir.jpg) no-repeat bottom center;
+				}
+		
+			.social-face
+			{
+				display:block;
+				margin:10px auto 0;
+				overflow:hidden;
+				width:70px;
+			}
+			
+			.social-twit
+			{
+				display:block;
+				overflow:hidden;
+				margin:10px auto 0;
+				width:69px;
+			}
+			
+			.social-gplus
+			{
+				display:block;
+				overflow:hidden;
+				margin:10px auto 0;
+				width:83px;
+			}
+			
+			
+		
+		.tit_registo
+		{
+			display:block;
+			overflow:hidden;
+			padding: 290px 0 0 15px;
+		}
+		
+		.cont-bg-form-1
+		{
+			width: 570px;
+			
+			/* border radius */
+			-webkit-border-radius: 12px;
+			-moz-border-radius: 12px;
+			border-radius: 12px;
+			display:block;
+			overflow:hidden;
+			position:relative;
+		}		
+				
+	
+	
+	.cont-body-repu-2
+	{
+		width:570px;
+		height:851px;
+		/*background:url(../img/bg-cont-repu-2.jpg) no-repeat;
+		border:solid 1px #C4C4C4;*/
+		
+		/* border radius */
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		
+		/* box shadow */
+		/*-moz-box-shadow: 0 0 15px #000;
+		-webkit-box-shadow: 0 0 15px #000;
+		box-shadow: 0 0 15px #000;*/
+		
+		position:relative;
+		top:0px;
+		z-index:1;
+	}
+	
+				.salir
+				{
+					text-decoration:none;
+					font: bold 13px Arial, Helvetica, sans-serif;
+					outline:none;
+					
+					
+					background: url(../img/bg-button.png) repeat-x 0 0;
+					border:0px;
+					cursor:pointer;
+					_border:0px;
+					
+					/* border radius */
+					-webkit-border-radius: 7px;
+					-moz-border-radius: 7px;
+					border-radius: 7px;
+					
+					color: #501235;
+					
+					display: inline;
+					float: left;
+					
+					font: italic bold 16px/1.4em Arial, Helvetica, sans-serif;
+					margin:10px 0 0 136px;
+					
+					padding: 4px 60px 4px;
+					width:60px;
+				}
+		
+				.salir:hover
+				{
+					color:#501235;
+					background: url(../img/bg-button.png) repeat-x 0 -30px;
+					text-decoration:none;
+				}
+			
+		.cont-gracias
+		{
+			padding:153px 0 0 29px;
+		}
+		
+		.btn-info 
+		{
+			display:block;
+			margin:0 auto;
+			padding:10px 0 115px;
+			width:276px;
+		}
+		
+			.btn-info a:link,
+			.btn-info a:visited,
+			.btn-info a:active,
+			.btn-info a:hover
+			{
+				background:url(../img/btn-info.jpg) no-repeat top center;
+				display:block;
+				height:32px;
+				overflow:hidden;
+				width:276px;
+			}
+			.btn-info a:hover
+			{
+				background:url(../img/btn-info.jpg) no-repeat bottom center;
+			}
+		
+		
+	
+	.cont-footer-repu
+	{
+		width:890px;
+		height:85px;
+		background:url(../img/bg-footer-repu.jpg) no-repeat;
+		
+		/* border radius */
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		
+		/* box shadow */
+		margin: 0px 15px 65px 15px;
+	}
+
